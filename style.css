@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px; 
+}
+
+.about {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.about img {
+  width:200px;
+  border-radius: 15px;
+  margin-top: 10px
+}
+
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.name-row {
+  display: flex;
+  gap: 10px;
+}
+
+.name-row input {
+  flex: 1;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #009bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.social-media {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.platform {
+  font-weight: bold;
+}
